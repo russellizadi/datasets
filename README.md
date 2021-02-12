@@ -1,5 +1,23 @@
 # datasets
 
+---
+### Egyptian-fruit
+[An annotated dataset of Egyptian fruit bat vocalizations across varying contexts and during vocal ontogeny](https://www.nature.com/articles/sdata2017143)
+
+[An annotated dataset of Egyptian fruit bat vocalizations across varying contexts and during vocal ontogeny](https://figshare.com/collections/An_annotated_dataset_of_Egyptian_fruit_bat_vocalizations_across_varying_contexts_and_during_vocal_ontogeny/3666502)
+
+- Download version 2, many files
+```.py
+url = "https://ndownloader.figshare.com/files/7379008"
+path = "/home/russell/russellizadi/datasets/Egyptian-fruit/Annotations.csv"
+download(url, path)
+
+url = "https://ndownloader.figshare.com/files/8900695"
+path = "/home/russell/russellizadi/datasets/Egyptian-fruit/FileInfo.csv"
+download(url, path)
+```
+
+---
 ### Pipistrellus
 
 [Pipistrellus pipistrellus and Pipistrellus pygmaeus in the Iberian Peninsula: An Annotated Segmented Dataset and a Proof of Concept of a Classifier in a Real Environment](https://www.mdpi.com/2076-3417/9/17/3467)
@@ -65,7 +83,7 @@ download(url, path)
 - 24 files after extraction
 ```
 $unzip 4805749.zip
-$ls -l . | egrep -c '^-'
+$ls -l . | egrep -c '^-' # number of folders
 $rm 4805749.zip
 ```
 - 18 folders after extracting all `tar.gz` files 
@@ -100,6 +118,20 @@ $rm *.tar.gz
 
 [BirdsongRecognition](https://figshare.com/articles/media/BirdsongRecognition/3470165)
 
+
+
+---
+### Gibbon
+[Superregular grammars do not provide additional explanatory power but allow for a compact analysis of animal song
+](https://royalsocietypublishing.org/doi/full/10.1098/rsos.190139)
+[Data from: Superregular grammars do not provide additional explanatory power but allow for a compact analysis of animal song](https://datadryad.org/stash/dataset/doi:10.5061/dryad.mn12jv2)
+
+- Download 3.1 GB, 1 tar.gz file
+```.py
+url = "https://ndownloader.figshare.com/articles/4805749/versions/5"
+path = "/Bengalese-finches-2/4805749.zip"
+download(url, path)
+```
 
 
 
