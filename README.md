@@ -1,14 +1,41 @@
 # datasets
 
+### Pipistrellus
+
+[]()
+
+
+
 ---
-Finch
+### Bengalese-finch and White-rumped-munia
+
+[A simple explanation for the evolution of complex song syntax in Bengalese finches](https://royalsocietypublishing.org/doi/10.1098/rsbl.2013.0842)
+
+[Data from: A simple explanation for the evolution of complex song syntax in Bengalese finches](https://datadryad.org/stash/dataset/doi:10.5061/dryad.6pt8g)
+
+- Two zip files 
+```.py
+url = "https://datadryad.org/stash/downloads/file_stream/52843"
+path = "/Bengalese-finches/BF.zip"
+download(url, path)
+
+url = "https://datadryad.org/stash/downloads/file_stream/52844"
+path = "/White-rumped-munia/WM.zip"
+download(url, path)
+```
+- 
+```
+$unzip BF.zip
+$unzip WM.zip
+```
+- 43 and 44 folders after extraction
+
+---
+### Bengalese-finch-2
 
 [paper](https://www.nature.com/articles/nature06390)
 [repo](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749)
 
-```
-$mkdir Bengalese-finch-2
-``` 
 - version 5, 8.71 GB, 1 zip file
 ```.py
 url = "https://ndownloader.figshare.com/articles/4805749/versions/5"
@@ -17,11 +44,9 @@ download(url, path)
 ```
 - 24 files after extraction
 ```
-cd Bengalese-finch-2
 $unzip 4805749.zip
 $ls -l . | egrep -c '^-'
 $rm 4805749.zip
-$
 ```
 - 18 folders after extracting all `tar.gz` files 
 ```
