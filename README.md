@@ -27,7 +27,24 @@ $
 ```
 $for file in *.tar.gz; do tar -zxf "$file"; done
 $echo */ | wc
+$rm *.tar.gz
 ```
+- There are 13302 files ending with {'tmp', 'mat', 'cbin', 'rec'}
+
+| Suffix | Number of files |
+| - | - |
+| tmp | 3546 |
+| mat | 2664 |
+| cbin | 3546 |
+| rec | 3546 |
+
+- Not all the files are annotated
+- Each mat file has following keys: 'Fs', 'fname', 'labels', 'onsets', 'offsets', 'min_int', 'min_dur', 'threshold', 'sm_win'
+- Labels are one the 29 following keys: {'f', 'e', 'n', 'r', 'o', 'b', 'i', 'x', 'u', '0', 'q', 'g', 'h', 't', 's', '-', 'p', '@', 'm', 'c', 'y', 'l', 'd', 'v', 'k', 'j', 'a', 'z', 'w'} 
+- The number of labels are between (8, 398) with mean 80.98
+- The duration of arrays from cbin files are between (4.91, 267.62) with mean 15.10
+
+
 
 ---
 
