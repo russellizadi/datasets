@@ -6,12 +6,21 @@
 
 [Bat recordings split data set](https://zenodo.org/record/3247097#.YCXgnXVKhhE)
 
-- Download 1 zip file 
+- Download version 1, 350 MB, 1 zip file 
 ```.py
 url = "https://zenodo.org/record/3247097/files/Bat_recordings.zip?download=1"
 path = "/home/russell/russellizadi/datasets/Pipistrellus/Bat_recordings.zip"
 download(url, path)
 ```
+- 3 folders after extraction
+```
+$unzip Bat_recordings.zip
+```
+
+
+
+
+
 
 ---
 ### Bengalese-finch and White-rumped-munia
@@ -20,7 +29,7 @@ download(url, path)
 
 [Data from: A simple explanation for the evolution of complex song syntax in Bengalese finches](https://datadryad.org/stash/dataset/doi:10.5061/dryad.6pt8g)
 
-- Download 2 zip files
+- Download 1.1 and 1.2 GB, 2 zip files
 ```.py
 url = "https://datadryad.org/stash/downloads/file_stream/52843"
 path = "/Bengalese-finches/BF.zip"
@@ -36,6 +45,9 @@ $unzip BF.zip
 $unzip WM.zip
 ```
 - 
+
+
+
 
 ---
 ### Bengalese-finch-2
