@@ -41,9 +41,11 @@ $rm *.tar.gz
 - Not all the files are annotated
 - Each mat file has following keys: 'Fs', 'fname', 'labels', 'onsets', 'offsets', 'min_int', 'min_dur', 'threshold', 'sm_win'
 - Labels are one the 29 following keys: {'f', 'e', 'n', 'r', 'o', 'b', 'i', 'x', 'u', '0', 'q', 'g', 'h', 't', 's', '-', 'p', '@', 'm', 'c', 'y', 'l', 'd', 'v', 'k', 'j', 'a', 'z', 'w'} 
+- There are 215740 total number of labels
 - The number of labels are between (8, 398) with mean 80.98
 - The duration of arrays from cbin files are between (4.91, 267.62) with mean 15.10
-
+- The onsets/offsets are in ms and cbin values are 16-biy signed integers
+- 
 
 
 ---
