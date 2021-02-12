@@ -96,6 +96,18 @@ $rm *.tar.gz
 ---
 
 
+[Automatic Recognition of Element Classes and Boundaries in the Birdsong with Variable Sequences](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159188)
+
+[BirdsongRecognition](https://figshare.com/articles/media/BirdsongRecognition/3470165)
+
+
+
+
+
+
+
+
+
 ---
 
 ```.py
