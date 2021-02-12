@@ -2,9 +2,16 @@
 
 ### Pipistrellus
 
-[]()
+[Pipistrellus pipistrellus and Pipistrellus pygmaeus in the Iberian Peninsula: An Annotated Segmented Dataset and a Proof of Concept of a Classifier in a Real Environment](https://www.mdpi.com/2076-3417/9/17/3467)
 
+[Bat recordings split data set](https://zenodo.org/record/3247097#.YCXgnXVKhhE)
 
+- Download 1 zip file 
+```.py
+url = "https://zenodo.org/record/3247097/files/Bat_recordings.zip?download=1"
+path = "/home/russell/russellizadi/datasets/Pipistrellus/Bat_recordings.zip"
+download(url, path)
+```
 
 ---
 ### Bengalese-finch and White-rumped-munia
@@ -13,7 +20,7 @@
 
 [Data from: A simple explanation for the evolution of complex song syntax in Bengalese finches](https://datadryad.org/stash/dataset/doi:10.5061/dryad.6pt8g)
 
-- Two zip files 
+- Download 2 zip files
 ```.py
 url = "https://datadryad.org/stash/downloads/file_stream/52843"
 path = "/Bengalese-finches/BF.zip"
@@ -23,20 +30,21 @@ url = "https://datadryad.org/stash/downloads/file_stream/52844"
 path = "/White-rumped-munia/WM.zip"
 download(url, path)
 ```
-- 
+- 43 and 44 folders after extraction
 ```
 $unzip BF.zip
 $unzip WM.zip
 ```
-- 43 and 44 folders after extraction
+- 
 
 ---
 ### Bengalese-finch-2
 
-[paper](https://www.nature.com/articles/nature06390)
-[repo](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749)
+[Performance variability enables adaptive plasticity of ‘crystallized’ adult birdsong](https://www.nature.com/articles/nature06390)
 
-- version 5, 8.71 GB, 1 zip file
+[Bengalese Finch song repository](https://figshare.com/articles/dataset/Bengalese_Finch_song_repository/4805749)
+
+- Download version 5, 8.71 GB, 1 zip file
 ```.py
 url = "https://ndownloader.figshare.com/articles/4805749/versions/5"
 path = "/Bengalese-finches-2/4805749.zip"
