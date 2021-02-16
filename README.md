@@ -34,6 +34,15 @@ download(url, path)
 ```
 $unzip Bat_recordings.zip
 ```
+- 22169 wav files in total sampled at 256 kHz
+
+| Folder | Number of files | 
+| - | - |
+| PIPI_CALLS | 4917 |
+| PIPY_CALLS | 5065 |
+| SILENCES | 12187 |
+
+- The sample mean and std duration: 0.055, 0.069
 
 
 
