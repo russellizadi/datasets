@@ -92,13 +92,13 @@ download(url, path)
 - 24 files after extraction
 ```
 $unzip 4805749.zip
-$ls -l . | egrep -c '^-' # number of folders
+$ls -l . | egrep -c '^-' # number of files
 $rm 4805749.zip
 ```
 - 18 folders after extracting all `tar.gz` files 
 ```
 $for file in *.tar.gz; do tar -zxf "$file"; done
-$echo */ | wc
+$echo */ | wc # number of folders
 $rm *.tar.gz
 ```
 - There are 13302 files ending with {'tmp', 'mat', 'cbin', 'rec'}
@@ -127,7 +127,46 @@ $rm *.tar.gz
 
 [BirdsongRecognition](https://figshare.com/articles/media/BirdsongRecognition/3470165)
 
+- Download 1.39 GB, 1 zip file
+```.py
+url = "https://ndownloader.figshare.com/articles/3470165/versions/1"
+path = "/home/russell/russellizadi/datasets/Bengalese-finches-3/3470165.zip"
+download(url, path)
+```
+- 11 zip files after extraction
+```
+$unzip *
+$rm 3470165.zip
+$ls -l . | egrep -c '^-' # number of files
+```
+- 11 folders after extraction
+```
+$for file in *.zip; do unzip "$file"; done
+$rm *.zip
+$echo */ | wc # number of folders
+```
+- 3009 files of type {'xml', 'wav'}
 
+| Suffix | Number of files | 
+| - | - |
+| xml | 44 |
+| wav | 2965 |
+
+- The sample rate is 32 kHz and sample mean and std duration are: 11.935, 4.162
+
+| Folder | Number of files | 
+| - | - |
+| Bird0 | 135 |
+| Bird1 | 315 |
+| Bird10 | 94 |
+| Bird2 | 339 |
+| Bird3 | 402 |
+| Bird4 | 441 |
+| Bird5 | 335 |
+| Bird6 | 235 |
+| Bird7 | 310 |
+| Bird8 | 142 |
+| Bird9 | 217 |
 
 ---
 ### Gibbon
