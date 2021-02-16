@@ -128,12 +128,18 @@ $rm *.tar.gz
 
 - Download 3.1 GB, 1 tar.gz file
 ```.py
-url = "https://ndownloader.figshare.com/articles/4805749/versions/5"
-path = "/Bengalese-finches-2/4805749.zip"
+url = "https://datadryad.org/stash/downloads/file_stream/106659"
+path = "/Gibbon/gibbon_superregular_data.tar.gz"
 download(url, path)
 ```
-
-
+- 1 folder after extracting 1 `tar.gz` file 
+```
+$tar -zxf *
+$rm *.tar.gz
+```
+- 240 wav files in two folders of training_data (60) and test_data (180)
+- files are sampled at 16 kHz and have fix duration of 30 minutes
+- there is no extra information provided except that there are 3 individuals.
 
 
 
