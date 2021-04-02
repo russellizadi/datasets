@@ -17,6 +17,11 @@ path = "/home/russell/russellizadi/datasets/Egyptian-fruit/FileInfo.csv"
 download(url, path)
 ```
 
+- Extract zip files
+```
+$7za x 8879572.zip -o./8879572
+```
+
 ---
 ### Pipistrellus
 
