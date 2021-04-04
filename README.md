@@ -194,11 +194,15 @@ $rm *.tar.gz
 - files are sampled at 16 kHz and have fix duration of 30 minutes
 - there is no extra information provided except that there are 3 individuals.
 
+---
+### URBAN-SED
 
+[The URBAN-SED Dataset](http://urbansed.weebly.com/)
 
-
-
-
+- Download `URBAN-SED.tar.gz` and extract 
+```
+$tar -zxf *
+```
 ---
 
 ```.py
