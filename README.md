@@ -199,10 +199,13 @@ $rm *.tar.gz
 
 [The URBAN-SED Dataset](http://urbansed.weebly.com/)
 
-- Download `URBAN-SED.tar.gz` and extract 
+- Download `URBAN-SED.tar.gz`, extract and remove all useless files 
 ```
 $tar -zxf *
+$cd 
+$find ./ -name '._*' -exec rm {} \;
 ```
+
 ---
 
 ```.py
