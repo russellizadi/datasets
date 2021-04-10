@@ -24,7 +24,8 @@ setup(
             "Programming Language :: Python :: 3.6",
         ],
     install_requires=[
-        'numpy>=1.20.2',
+        'sox',
+        'numpy',
         'soundfile',
     ],
     extras_require={
